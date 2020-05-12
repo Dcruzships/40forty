@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/40forty/static/css/main.5f361e03.chunk.css",
-    "main.js": "/40forty/static/js/main.a7de6c36.chunk.js",
-    "main.js.map": "/40forty/static/js/main.a7de6c36.chunk.js.map",
+    "main.css": "/40forty/static/css/main.995486ef.chunk.css",
+    "main.js": "/40forty/static/js/main.03a0c4e5.chunk.js",
+    "main.js.map": "/40forty/static/js/main.03a0c4e5.chunk.js.map",
     "runtime-main.js": "/40forty/static/js/runtime-main.b41e2283.js",
     "runtime-main.js.map": "/40forty/static/js/runtime-main.b41e2283.js.map",
-    "static/js/2.193e0b92.chunk.js": "/40forty/static/js/2.193e0b92.chunk.js",
-    "static/js/2.193e0b92.chunk.js.map": "/40forty/static/js/2.193e0b92.chunk.js.map",
+    "static/js/2.7e1638cb.chunk.js": "/40forty/static/js/2.7e1638cb.chunk.js",
+    "static/js/2.7e1638cb.chunk.js.map": "/40forty/static/js/2.7e1638cb.chunk.js.map",
     "index.html": "/40forty/index.html",
-    "precache-manifest.19891aa9ea3bfac0ade6e8df85ddfd8f.js": "/40forty/precache-manifest.19891aa9ea3bfac0ade6e8df85ddfd8f.js",
+    "precache-manifest.d3e50ff116f3710025b1bf5248688d04.js": "/40forty/precache-manifest.d3e50ff116f3710025b1bf5248688d04.js",
     "service-worker.js": "/40forty/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/40forty/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.193e0b92.chunk.js.LICENSE.txt": "/40forty/static/js/2.193e0b92.chunk.js.LICENSE.txt"
+    "static/css/main.995486ef.chunk.css.map": "/40forty/static/css/main.995486ef.chunk.css.map",
+    "static/js/2.7e1638cb.chunk.js.LICENSE.txt": "/40forty/static/js/2.7e1638cb.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b41e2283.js",
-    "static/js/2.193e0b92.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.a7de6c36.chunk.js"
+    "static/js/2.7e1638cb.chunk.js",
+    "static/css/main.995486ef.chunk.css",
+    "static/js/main.03a0c4e5.chunk.js"
   ]
 }
