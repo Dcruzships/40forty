@@ -1,6 +1,6 @@
 {
-  "homepage": "https://dcruzships.github.io/40-forty",
-  "name": "40-forty",
+  "homepage": "https://dcruzships.github.io/40forty",
+  "name": "40forty",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,6 +8,7 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.13.1",
+    "react-countdown": "^2.2.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
   },
