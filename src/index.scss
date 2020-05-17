@@ -66,13 +66,15 @@ body {
 }
 
 #App-footer {
-  display: flex;
-  width: $pageWidth;
-  position: absolute;
-  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: block;
 
-  #musicPlayer {
+  .wrapper {
+    position: fixed;
+    bottom: 0;
     width: 100%;
-    color: blue;
+    display: block;
   }
 }
