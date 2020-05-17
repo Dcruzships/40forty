@@ -1,7 +1,6 @@
 import React from 'react';
 import CoolPlayer from 'react-cool-music-player';
 import 'react-cool-music-player/dist/index.css';
-import him from '../music/him.mp3';
 
 function App() {
   return (
