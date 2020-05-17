@@ -1,6 +1,8 @@
 import React from 'react';
 import CoolPlayer from 'react-cool-music-player';
 import 'react-cool-music-player/dist/index.css';
+import idk from './idk-demo.mp3';
+import him from './him.mp3';
 
 function App() {
   return (
@@ -57,12 +59,12 @@ class MusicPlayer extends React.Component
     super(props);
     this.state = { data: [
       {
-        src: './src/music/idk-demo.mp3',
+        src: idk,
         artist: 'Captain Brando!',
         name: 'idk / Now! demo',
       },
       {
-        src: './music/him.mp3',
+        src: him,
         artist: 'Captain Brando!',
         name: 'Him',
       },
