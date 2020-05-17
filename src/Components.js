@@ -1,8 +1,4 @@
 import React from 'react';
-import CoolPlayer from 'react-cool-music-player';
-import 'react-cool-music-player/dist/index.css';
-import idk from './idk-demo.mp3';
-import him from './him.mp3';
 
 function App() {
   return (
@@ -53,34 +49,5 @@ class Topics extends React.Component
   }
 }
 
-class MusicPlayer extends React.Component
-{
-  constructor(props) {
-    super(props);
-    this.state = { data: [
-      {
-        src: idk,
-        artist: 'Captain Brando!',
-        name: 'idk / Now! demo',
-      },
-      {
-        src: him,
-        artist: 'Captain Brando!',
-        name: 'Him',
-      },
-    ]};
-  }
-
-  render()
-  {
-    return (
-      <div className={'wrapper'}>
-        <CoolPlayer data={this.state.data} />
-      </div>
-    );
-  }
-}
-
 export { App };
 export { Topics };
-export { MusicPlayer };
