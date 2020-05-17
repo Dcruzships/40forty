@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b41386dc9a66875a51571db7789400ad",
+    "revision": "23d1a74b38d525c9e4c01187f318f6e3",
     "url": "/40forty/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/40forty/static/css/2.c8b7397c.chunk.css"
   },
   {
-    "revision": "243c2c64f896cd25855c",
+    "revision": "0964c661422fc2c0d00d",
     "url": "/40forty/static/css/main.05cbec3d.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/40forty/static/js/2.1f7f9033.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "243c2c64f896cd25855c",
-    "url": "/40forty/static/js/main.65b77c87.chunk.js"
+    "revision": "0964c661422fc2c0d00d",
+    "url": "/40forty/static/js/main.a459bd0d.chunk.js"
   },
   {
     "revision": "d6b9f4c9aa7e6716b6c0",
