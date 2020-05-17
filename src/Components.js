@@ -59,31 +59,37 @@ class MusicPlayer extends React.Component
       {
         src: 'https://raw.githubusercontent.com/dcruzships/40forty/master/assets/idk-demo.mp3',
         artist: 'Captain Brando!',
+        img: 'https://raw.githubusercontent.com/dcruzships/40forty/master/assets/sailboat.png',
         name: 'idk / Now! demo',
       },
       {
         src: 'https://raw.githubusercontent.com/dcruzships/40forty/master/assets/him.mp3',
         artist: 'Captain Brando!',
+        img: 'https://raw.githubusercontent.com/dcruzships/40forty/master/assets/him.jpg',
         name: 'Him',
       },
       {
         src: 'https://raw.githubusercontent.com/dcruzships/40forty/master/assets/bargainbin.mp3',
         artist: 'Altona Meadows',
+        img: 'https://raw.githubusercontent.com/dcruzships/40forty/master/assets/bargainbin.png',
         name: 'Bargain Bin',
       },
       {
         src: 'https://raw.githubusercontent.com/dcruzships/40forty/master/assets/goodyou.mp3',
         artist: 'Captain Brando!',
+        img: 'https://raw.githubusercontent.com/dcruzships/40forty/master/assets/sailboat.png',
         name: 'good, and you?',
       },
       {
         src: 'https://raw.githubusercontent.com/dcruzships/40forty/master/assets/paralyzed.mp3',
         artist: 'Captain Brando!',
+        img: 'https://raw.githubusercontent.com/dcruzships/40forty/master/assets/sailboat.png',
         name: 'Paralyzed Paraplegic (instrumental)',
       },
       {
         src: 'https://raw.githubusercontent.com/dcruzships/40forty/master/assets/bbetc.mp3',
         artist: 'Altona Meadows',
+        img: 'https://raw.githubusercontent.com/dcruzships/40forty/master/assets/bbetc.png',
         name: 'Better Better, etc.',
       },
     ]};
