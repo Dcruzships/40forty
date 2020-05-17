@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
-import { App, Topics } from './Components';
+import { App, Topics, MusicPlayer } from './Components';
 import Countdown from 'react-countdown';
-import CoolPlayer from 'react-cool-music-player';
 import $ from "jquery";
 
 const mainTopics = [
@@ -52,7 +51,7 @@ const makePage1 = () => {
 const makeNav = () => {
   ReactDOM.render(
     <React.StrictMode>
-
+      <MusicPlayer />
     </React.StrictMode>,
     document.querySelector('#App-footer')
   );
