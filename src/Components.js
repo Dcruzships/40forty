@@ -1,7 +1,6 @@
 import React from 'react';
 import CoolPlayer from 'react-cool-music-player';
 import 'react-cool-music-player/dist/index.css';
-import him from '../music/him.mp3';
 
 function App() {
   return (
@@ -58,14 +57,34 @@ class MusicPlayer extends React.Component
     super(props);
     this.state = { data: [
       {
-        src: './music/idk-demo.mp3',
+        src: 'https://raw.githubusercontent.com/dcruzships/40forty/master/assets/idk-demo.mp3',
         artist: 'Captain Brando!',
         name: 'idk / Now! demo',
       },
       {
-        src: './music/him.mp3',
+        src: 'https://raw.githubusercontent.com/dcruzships/40forty/master/assets/him.mp3',
         artist: 'Captain Brando!',
         name: 'Him',
+      },
+      {
+        src: 'https://raw.githubusercontent.com/dcruzships/40forty/master/assets/bargainbin.mp3',
+        artist: 'Altona Meadows',
+        name: 'Bargain Bin',
+      },
+      {
+        src: 'https://raw.githubusercontent.com/dcruzships/40forty/master/assets/goodyou.mp3',
+        artist: 'Captain Brando!',
+        name: 'good, and you?',
+      },
+      {
+        src: 'https://raw.githubusercontent.com/dcruzships/40forty/master/assets/paralyzed.mp3',
+        artist: 'Captain Brando!',
+        name: 'Paralyzed Paraplegic (instrumental)',
+      },
+      {
+        src: 'https://raw.githubusercontent.com/dcruzships/40forty/master/assets/bbetc.mp3',
+        artist: 'Altona Meadows',
+        name: 'Better Better, etc.',
       },
     ]};
   }
