@@ -57,7 +57,7 @@ class MusicPlayer extends React.Component
     super(props);
     this.state = { data: [
       {
-        src: './music/idk-demo.mp3',
+        src: './src/music/idk-demo.mp3',
         artist: 'Captain Brando!',
         name: 'idk / Now! demo',
       },
