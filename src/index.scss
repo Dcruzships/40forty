@@ -4,17 +4,20 @@ $colorBG: black;
 $colorMain: white;
 $fontMain: 'Open Sans', sans-serif;
 
+
+html {
+  height: 100%;
+}
+
 body {
+  min-height: 100%;
   margin: 0;
+  padding: 0;
   background-color: black;
   color: white;
   font-family: $fontMain;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
   overflow-x: hidden;
 }
 
@@ -24,50 +27,57 @@ body {
   justify-content: center;
 }
 
-#page1 {
-  height: $pageHeight;
+.fullPage {
+  height: $pageHeight - 10vh;
   width: $pageWidth;
+}
+
+#page1 {
+  border-style: solid;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: 8em;
 
-  #topics {
-    width: 50%;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 25px;
-    font-size: 15px;
-
-    button {
-      width: 15em;
-      height: 5em;
-      background-color: white;
-      color: black;
-      transition-duration: 0.4s;
-    }
-
-    button:hover {
-      background-color: black;
-      color: white;
-    }
-
-    #theTopic {
-      border-style: solid;
-      width: 25em;
-      padding: 10px;
+  #contols {
+    position: fixed;
+    .controls {
+      position: fixed;
     }
   }
 }
 
 #page2 {
-
+  border-style: solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 8em;
 }
 
-#App-footer {
+footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  display: block;
 }
+
+/* total width */
+::-webkit-scrollbar {
+    background-color: black;
+    width:16px
+}
+
+/* background of the scrollbar except button or resizer */
+::-webkit-scrollbar-track { background-color: white }
+
+/* scrollbar itself */
+::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius:0;
+    border:1px solid #fff;
+}
+
+/* set button(top and bottom of the scrollbar) */
+::-webkit-scrollbar-button {display:none}

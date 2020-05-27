@@ -1,33 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
-import { App, Topics, MusicPlayer } from './Components';
-import Countdown from 'react-countdown';
+import { App, Page1, Page2, Footer } from './components/App.js';
+// import MusicPlayer from './main';
 import $ from "jquery";
-
-const mainTopics = [
-  "Race",
-  "Sexuality",
-  "School",
-  "Parents",
-  "Medication",
-  "Drugs / Alcohol",
-  "Art",
-  "Love",
-  "Violence",
-  "Self Worth",
-  "Sex",
-  "Friendship",
-  "Purpose",
-  "Wants / Needs",
-  "Physicality",
-  "Judgement",
-  "Sense of Self",
-  "Adulthood",
-  "World",
-  "Dreams",
-  "Meditation"
-];
 
 const init = () => {
   ReactDOM.render(
@@ -41,25 +17,34 @@ const init = () => {
 const makePage1 = () => {
   ReactDOM.render(
     <React.StrictMode>
-      <Countdown date={'June 20, 2020 00:00:00'} />
-      <Topics topics={mainTopics} />
+      <Page1 />
     </React.StrictMode>,
     document.querySelector('#page1')
+  );
+};
+
+const makePage2 = () => {
+  ReactDOM.render(
+    <React.StrictMode>
+      <Page2 />
+    </React.StrictMode>,
+    document.querySelector('#page2')
   );
 };
 
 const makeNav = () => {
   ReactDOM.render(
     <React.StrictMode>
-      <MusicPlayer />
+      <Footer />
     </React.StrictMode>,
-    document.querySelector('#App-footer')
+    document.querySelector('footer')
   );
 };
 
 $(document).ready(function()
 {
   init();
-  makePage1();
   makeNav();
+  makePage1();
+  makePage2();
 });
