@@ -40,11 +40,21 @@ body {
   justify-content: center;
   font-size: 8em;
 
-  #contols {
+  .controls {
     position: fixed;
-    .controls {
-      position: fixed;
-    }
+  }
+  #left {
+    left: 2vw;
+  }
+  #right {
+    left: $pageWidth - 10vw;
+  }
+
+  #topics {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 

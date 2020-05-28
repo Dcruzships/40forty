@@ -4,14 +4,12 @@ import Panel from './Panel';
 
 function App() {
   return (
-    <>
+    <div id="app">
       <header></header>
-      <div id="app">
-        <div id="page1" className="fullPage"></div>
-        <div id="page2" className="fullPage"></div>
-      </div>
+      <div id="page1" className="fullPage"></div>
+      <div id="page2" className="fullPage"></div>
       <footer></footer>
-    </>
+    </div>
   )
 }
 
