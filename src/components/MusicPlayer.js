@@ -10,45 +10,45 @@ class MusicPlayer extends React.Component
     this.state = { songs:
     [
       {
-        src: 'https://raw.githubusercontent.com/dcruzships/40forty/master/assets/idk-demo.mp3',
+        src: 'https://raw.githubusercontent.com/dcruzships/dcruz-assets/master/music/idk-demo.mp3',
         artist: 'Captain Brando!',
         name: 'idk / Now! (demo)',
-        img: 'https://raw.githubusercontent.com/dcruzships/40forty/master/assets/sailboat.png',
+        img: 'https://raw.githubusercontent.com/dcruzships/dcruz-assets/master/images/sailboat.png',
         id: '66575568423123',
       },
       {
-        src: 'https://raw.githubusercontent.com/dcruzships/40forty/master/assets/him.mp3',
+        src: 'https://raw.githubusercontent.com/dcruzships/dcruz-assets/master/music/him.mp3',
         artist: 'Captain Brando!',
         name: 'Him',
-        img: 'https://raw.githubusercontent.com/dcruzships/40forty/master/assets/him.jpg',
+        img: 'https://raw.githubusercontent.com/dcruzships/dcruz-assets/master/images/him.jpg',
         id: '66575568425354321',
       },
       {
-        src: 'https://raw.githubusercontent.com/dcruzships/40forty/master/assets/goodyou.mp3',
+        src: 'https://raw.githubusercontent.com/dcruzships/dcruz-assets/master/music/goodyou.mp3',
         artist: 'Captain Brando!',
         name: 'good, and you?',
-        img: 'https://raw.githubusercontent.com/dcruzships/40forty/master/assets/sailboat.png',
+        img: 'https://raw.githubusercontent.com/dcruzships/dcruz-assets/master/images/sailboat.png',
         id: '66575568423274',
       },
       {
-        src: 'https://raw.githubusercontent.com/dcruzships/40forty/master/assets/bargainbin.mp3',
+        src: 'https://raw.githubusercontent.com/dcruzships/dcruz-assets/master/music/bargainbin.mp3',
         artist: 'Captain Brando!',
         name: 'Bargain Bin',
-        img: 'https://raw.githubusercontent.com/dcruzships/40forty/master/assets/bargainbin.png',
+        img: 'https://raw.githubusercontent.com/dcruzships/dcruz-assets/master/images/bargainbin.png',
         id: '66575568425349835',
       },
       {
-        src: 'https://raw.githubusercontent.com/dcruzships/40forty/master/assets/bbetc.mp3',
+        src: 'https://raw.githubusercontent.com/dcruzships/dcruz-assets/master/music/bbetc.mp3',
         artist: 'Captain Brando!',
         name: 'Better Better, etc.',
-        img: 'https://raw.githubusercontent.com/dcruzships/40forty/master/assets/bbetc.png',
+        img: 'https://raw.githubusercontent.com/dcruzships/dcruz-assets/master/images/bbetc.png',
         id: '66575568463795',
       },
       {
-        src: 'https://raw.githubusercontent.com/dcruzships/40forty/master/assets/paralyzed.mp3',
+        src: 'https://raw.githubusercontent.com/dcruzships/dcruz-assets/master/music/paralyzed.mp3',
         artist: 'Captain Brando!',
         name: 'Paralyzed Paraplegic (instrumental)',
-        img: 'https://raw.githubusercontent.com/dcruzships/40forty/master/assets/sailboat.png',
+        img: 'https://raw.githubusercontent.com/dcruzships/dcruz-assets/master/images/sailboat.png',
         id: '66575568425355568',
       },
     ]};
@@ -57,7 +57,7 @@ class MusicPlayer extends React.Component
   render()
   {
     return (
-      <div className={'wrapper'}>
+      <div className={'wrapper'} id="musicPlayer">
         <CoolPlayer data={this.state.songs} />
       </div>
     );

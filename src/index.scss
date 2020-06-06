@@ -21,73 +21,26 @@ body {
   overflow-x: hidden;
 }
 
-.centeredItems {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.fullPage {
-  height: $pageHeight - 10vh;
-  width: $pageWidth;
-}
-
-#page1 {
-  border-style: solid;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+#panel {
   font-size: 8em;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 
   .controls {
     position: fixed;
   }
   #left {
-    left: 2vw;
+    left: 5vw;
   }
   #right {
-    left: $pageWidth - 10vw;
-  }
-
-  #topics {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    left: $pageWidth - 15vw;
   }
 }
 
-#page2 {
-  border-style: solid;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: 8em;
-}
-
-footer {
+#musicPlayer {
   position: fixed;
+  left: 0;
   bottom: 0;
   width: 100%;
 }
-
-/* total width */
-::-webkit-scrollbar {
-    background-color: black;
-    width:16px
-}
-
-/* background of the scrollbar except button or resizer */
-::-webkit-scrollbar-track { background-color: white }
-
-/* scrollbar itself */
-::-webkit-scrollbar-thumb {
-    background-color: black;
-    border-radius:0;
-    border:1px solid #fff;
-}
-
-/* set button(top and bottom of the scrollbar) */
-::-webkit-scrollbar-button {display:none}
