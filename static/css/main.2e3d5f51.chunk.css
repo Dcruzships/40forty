@@ -1,0 +1,2 @@
+html{height:100%}body{min-height:100%;margin:0;padding:0;background-color:#000;color:#fff;font-family:"Open Sans",sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;overflow-x:hidden}#panel{font-size:8em;justify-content:center;align-items:center;display:flex}#panel .controls{position:fixed}#panel #left{left:5vw}#panel #right{left:85vw}#musicPlayer{position:fixed;left:0;bottom:0;width:100%}
+/*# sourceMappingURL=main.2e3d5f51.chunk.css.map */
